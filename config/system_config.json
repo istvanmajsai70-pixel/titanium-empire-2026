@@ -1,0 +1,13 @@
+{
+    "owner": "Titanium",
+    "storage": "100TB Cloud",
+    "api_headers": {
+        "quota_request": "X-API-Quota-Request",
+        "quota_used": "X-API-Quota-Used",
+        "quota_left": "X-API-Quota-Left"
+    },
+    "payouts": {
+        "revolut": {"currency": "USD", "threshold": 50.0, "priority": 1},
+        "paypal": {"currency": "USD", "threshold": 10.0, "priority": 2}
+    }
+}
